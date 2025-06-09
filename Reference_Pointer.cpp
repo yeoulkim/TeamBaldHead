@@ -2,15 +2,15 @@
 using namespace std;
 
 
-// ÂüÁ¶
+// ì°¸ì¡°
 void swap(int& a, int& b)
 {
-	int temp = a;  // temp ÀÓ½Ã ÀúÀå¼Ò : ±âÁ¸ °ª º¸°ü
+	int temp = a;  // temp ìž„ì‹œ ì €ìž¥ì†Œ : ê¸°ì¡´ ê°’ ë³´ê´€
 	a = b;
 	b = temp;
 }
 
-/* Æ÷ÀÎÅÍ
+/* í¬ì¸í„°
 void swap(int* a, int* b)
 {
 
@@ -25,9 +25,9 @@ int main()
 	int num1 = 1;
 	int num2 = 500;
 
-	swap(num1, num2);   // ÂüÁ¶ -> º¯¼ö ÀÌ¸§¸¸
+	swap(num1, num2);   // ì°¸ì¡° -> ë³€ìˆ˜ ì´ë¦„ë§Œ
 	
-	// swap(&num1, &num2);  Æ÷ÀÎÅÍ -> ÁÖ¼Ò°ª Àü´Þ
+	// swap(&num1, &num2);  í¬ì¸í„° -> ì£¼ì†Œê°’ ì „ë‹¬
 
 	cout << "num1: " << num1 << ", num2: " << num2 << endl;
 
